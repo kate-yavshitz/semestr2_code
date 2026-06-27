@@ -52,7 +52,7 @@ pip install -r requirements.txt
 pip install git+https://github.com/marianne-m/brouhaha-vad.git@main 
 
 2.	Получить токен на портале https://huggingface.co/ и вписать его в файл .env в формате:
-HF_TOKEN=новый_токен и вставить его в brouhaha.ipynb и run_brouhaha.py на место слова secret
+HF_TOKEN=новый_токен и вставить его в .env brouhaha.ipynb и run_brouhaha.py на место слова secret
 
 3. Запуск программы для анализа папки с аудиофайлами
 3.1) С помощью программного обеспечения VS Code открыть папку проекта.
