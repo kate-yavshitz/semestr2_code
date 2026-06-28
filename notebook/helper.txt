@@ -1,0 +1,26 @@
+# 0. Установите python 3.8
+py -3.8 -m venv venv38
+
+
+# 1. Активируйте виртуальное окружение
+venv38\Scripts\activate
+
+# 2. Обновите pip
+python -m pip install --upgrade pip
+
+# 3. Установите PyTorch (последняя версия для CPU)
+pip install torch torchaudio --index-url https://download.pytorch.org/whl/cpu
+
+# 4. Установите pyannote.audio
+pip install pyannote.audio
+
+# 5. Установите остальные зависимости
+pip install pandas tqdm numpy soundfile huggingface-hub speechbrain sentencepiece python-dotenv librosa
+
+# 6. Установите brouhaha-vad
+pip install https://github.com/marianne-m/brouhaha-vad/archive/main.zip
+
+# 7. Проверьте установку
+pip list
+
+# 8.  Переходите к ноутбуку в папке notebook
